@@ -1,0 +1,5 @@
+K&R Exercise 1-11. How would you test the word count program? What kinds of
+input are most likely to uncover bugs if there are any?
+
+    Unit tests.  Zero words, one word, 2^32 words. All whitespace, no
+    whitespace, zero length input.
