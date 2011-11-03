@@ -3,12 +3,13 @@
 
  #include <stdio.h>
 
- main
- {
+main()
+{
 	int c, inblank;
 	inblank = 0;
 	while(( c=getchar() ) != EOF ) {
 		if(c != ' ') {
+			inblank = 0;
 			putchar(c);
 		} else if(!inblank) {
 			inblank = 1;
